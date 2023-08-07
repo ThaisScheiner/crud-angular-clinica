@@ -1,0 +1,68 @@
+//form-fild
+:host {
+  display: grid;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  padding-left: 400px;
+  padding-top: 150px;
+}
+
+.example-container mat-form-field + mat-form-field {
+  margin-left: 20px;
+}
+
+//input
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+td {
+  padding-right: 8px;
+}
+
+//button
+section {
+  display: table;
+}
+
+.example-label {
+  display: table-cell;
+  font-size: 14px;
+  margin-left: 8px;
+  min-width: 120px;
+}
+
+.example-button-row {
+  display: table-cell;
+  max-width: 600px;
+  padding-left: 130px;
+  padding-top: 20px;
+}
+
+.example-button-row .mat-mdc-button-base {
+  margin: 8px 8px 8px 0;
+}
+
+.example-flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.example-button-container {
+  display: flex;
+  justify-content: center;
+  width: 120px;
+}
+
+//toolbar
+.example-spacer {
+  flex: 1 1 auto;
+  padding-left: 0px;
+}

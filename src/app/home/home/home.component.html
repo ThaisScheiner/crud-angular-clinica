@@ -1,0 +1,23 @@
+<p>
+  <mat-toolbar color="primary">
+    <button mat-icon-button class="material-symbols-outlined stethoscope"
+      aria-label="Example stethoscope with heart icon"  (click)="onAddInicial()">
+      <mat-icon>stethoscope</mat-icon>
+    </button>
+    <span>Clínica</span>
+
+    <button mat-raised-button color="primary" (click)="onAddInicial()">Home</button>
+
+<button mat-raised-button color="primary" [matMenuTriggerFor]="belowMenu">Cadastro</button>
+<mat-menu #belowMenu="matMenu" yPosition="below">
+
+  <button mat-menu-item (click)="onAddMedico()">Medico</button>
+  <button mat-menu-item (click)="onAddCliente()">Cliente</button>
+</mat-menu>
+
+<button mat-icon-button class="example-icon linear_scale" aria-label="Example linear_scale with heart icon">
+  <mat-icon>linear_scale</mat-icon>
+</button>
+
+  </mat-toolbar>
+</p>
