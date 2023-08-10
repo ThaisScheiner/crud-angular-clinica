@@ -2,12 +2,12 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { MedicoCadComponent } from './medico-cad/medico-cad.component';
-import { ClienteCadComponent } from './cliente-cad/cliente-cad.component';
+import { PacienteCadComponent } from './paciente-cad/paciente-cad.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'medico', component: MedicoCadComponent},
-  { path: 'cliente', component: ClienteCadComponent},
+  { path: 'paciente', component: PacienteCadComponent},
 
 ];
 

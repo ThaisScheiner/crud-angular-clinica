@@ -19,16 +19,8 @@ export class HomeComponent {
     this.router.navigate(['medico'], {relativeTo: this.route});
   }
 
-  onAddCliente(){
-    this.router.navigate(['cliente'], {relativeTo: this.route});
-  }
-
-  onAddAcervo(){
-    this.router.navigate(['acervo'], {relativeTo: this.route});
-  }
-
-  onAddEmprestimoList(){
-    this.router.navigate(['emprestimo-list'], {relativeTo: this.route});
+  onAddPaciente(){
+    this.router.navigate(['paciente'], {relativeTo: this.route});
   }
 
   onAddInicial(){

@@ -5,13 +5,13 @@ import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home/home.component';
 import { AppMaterialModule } from '../shared/app-material/app-material.module';
 import { MedicoCadComponent } from './medico-cad/medico-cad.component';
-import { ClienteCadComponent } from './cliente-cad/cliente-cad.component';
+import { PacienteCadComponent } from './paciente-cad/paciente-cad.component';
 
 @NgModule({
   declarations: [
     HomeComponent,
     MedicoCadComponent,
-    ClienteCadComponent
+    PacienteCadComponent
   ],
   imports: [
     CommonModule,
